@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --brand: 37 99 235; /* blue-600 */
+  }
+
+  ::selection {
+    background: rgb(var(--brand) / 0.25);
+  }
+}
+
+html,
+body {
+  height: 100%;
+}

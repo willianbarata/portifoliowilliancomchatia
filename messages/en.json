@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "articles": "Articles",
+    "newsletter": "Newsletter"
+  },
+  "home": {
+    "title": "Willian Barata",
+    "subtitle": "Full-stack | React/Next.js | .NET | Node.js | AWS/Azure",
+    "ctaProjects": "View projects",
+    "ctaNewsletter": "Read newsletter",
+    "leadTitle": "Want to subscribe to receive tips on technology, AI, .NET and online business?",
+    "leadPlaceholder": "Your email",
+    "leadButton": "Subscribe"
+  },
+  "chat": {
+    "title": "Ask the FAQ",
+    "placeholder": "Type your question (max 100 chars)",
+    "send": "Send"
+  }
+}
+
