@@ -1,10 +1,16 @@
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { ProfilePhoto } from "@/components/profile/ProfilePhoto";
-import { MessageCircle, Linkedin, GraduationCap, ArrowLeft } from "lucide-react";
+import { MessageCircle, Linkedin, GraduationCap, ArrowLeft, QrCode } from "lucide-react";
 
-export default function GruposPage() {
-  const t = useTranslations("links");
+export default async function GruposPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations("links");
+  const tQr = await getTranslations("qrcode");
 
   const links = [
     {
@@ -24,6 +30,12 @@ export default function GruposPage() {
       label: t("course"),
       icon: GraduationCap,
       color: "bg-blue-600 hover:bg-blue-500 shadow-blue-600/20",
+    },
+    {
+      href: `/${locale}/qrcode`,
+      label: tQr("title"),
+      icon: QrCode,
+      color: "bg-zinc-800 hover:bg-zinc-700 shadow-zinc-800/20 dark:bg-zinc-700 dark:hover:bg-zinc-600",
     },
   ];
 

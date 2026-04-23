@@ -26,6 +26,14 @@
     "linkedin": "LinkedIn",
     "course": "Plugando IA Course",
     "back": "Back to home"
+  },
+  "qrcode": {
+    "title": "QR Code Generator",
+    "subtitle": "Transform any link into a QR Code instantly",
+    "placeholder": "Paste your link here...",
+    "button": "Generate QR Code",
+    "download": "Download image",
+    "back": "Back"
   }
 }
 

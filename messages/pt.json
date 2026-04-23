@@ -26,6 +26,14 @@
     "linkedin": "LinkedIn",
     "course": "Curso Plugando IA",
     "back": "Voltar para o início"
+  },
+  "qrcode": {
+    "title": "Gerador de QR Code",
+    "subtitle": "Transforme qualquer link em um QR Code instantaneamente",
+    "placeholder": "Cole seu link aqui...",
+    "button": "Gerar QR Code",
+    "download": "Baixar imagem",
+    "back": "Voltar"
   }
 }
 
