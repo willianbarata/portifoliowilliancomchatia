@@ -19,6 +19,13 @@
     "title": "Ask the FAQ",
     "placeholder": "Type your question (max 100 chars)",
     "send": "Send"
+  },
+  "links": {
+    "title": "Links Hub",
+    "whatsapp": "WhatsApp Group",
+    "linkedin": "LinkedIn",
+    "course": "Plugando IA Course",
+    "back": "Back to home"
   }
 }
 

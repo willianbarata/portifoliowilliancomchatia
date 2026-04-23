@@ -19,6 +19,13 @@
     "title": "Pergunte ao FAQ",
     "placeholder": "Digite sua pergunta (até 100 caracteres)",
     "send": "Enviar"
+  },
+  "links": {
+    "title": "Hub de Links",
+    "whatsapp": "Grupo de WhatsApp",
+    "linkedin": "LinkedIn",
+    "course": "Curso Plugando IA",
+    "back": "Voltar para o início"
   }
 }
 
